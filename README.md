@@ -1,5 +1,9 @@
 # Milk-V Duo image-recognition 
-## Ubuntu Docker development environment
+## Getting Started
+First, update git submodules:
+```sh
+git submodule update --init 
+```
 
 Build the Ubuntu development image from the repository root:
 
@@ -11,8 +15,6 @@ Start an interactive Ubuntu container with this repository and the Duo SDK
 mounted. Set `DUO_SDK_ROOT` to the host path of your SDK checkout:
 
 ```sh
-export DUO_SDK_ROOT=/path/to/duo-buildroot-sdk-v2
-
 docker run --rm -it \
   --user "$(id -u):$(id -g)" \
   --env HOME=/tmp \

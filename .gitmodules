@@ -1,0 +1,12 @@
+[submodule "duo-tdl-examples"]
+	path = duo-tdl-examples
+	url = https://github.com/milkv-duo/duo-tdl-examples
+[submodule "tdl-models"]
+	path = tdl-models
+	url = https://github.com/milkv-duo/tdl-models
+[submodule "tpu-sdk-sg200x"]
+	path = tpu-sdk-sg200x
+	url = https://github.com/milkv-duo/tpu-sdk-sg200x
+[submodule "duo-buildroot-sdk-v2"]
+	path = duo-buildroot-sdk-v2
+	url = https://github.com/DOMEHero/duo-buildroot-sdk-v2
